@@ -1,5 +1,14 @@
 # MovieApp
+## Descripción del Proyecto
+Este proyecto es una aplicación web desarrollada con Angular que permite explorar y buscar películas utilizando la API de The Movie Database (TMDb). La aplicación presenta un diseño atractivo con tarjetas que muestran información clave de las películas, incluida su puntuación. Además, cuenta con un buscador que facilita la búsqueda de películas según el interés del usuario.
 
+## Características Principales
+- Visualización de películas en tarjetas con información esencial.
+- Implementación de un buscador para facilitar la búsqueda de películas.
+- Integración con la API de The Movie Database para obtener datos actualizados.
+- Alternancia del modo oscuro para mejorar la experiencia de usuario.
+
+------------
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 
 ## Development server
