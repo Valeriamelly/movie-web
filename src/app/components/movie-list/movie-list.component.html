@@ -1,0 +1,22 @@
+<!-- Sección de búsqueda  -->
+
+<div class="search-container">
+  <input class="search-input" type="text" placeholder="Buscar películas" [(ngModel)]="searchTerm">
+  <button class="search-button" (click)="search()">Buscar</button>
+</div>
+
+
+<!-- Sección de tarjetas de películas -->
+<div class="movie-cards">
+  <mat-card *ngFor="let movie of movies" class="movie-card">
+    <!-- Imagen de la película con la ruta completa de la imagen -->
+    <img mat-card-image [src]="'https://image.tmdb.org/t/p/w500/' + movie.poster_path" alt="{{ movie.title }}">
+    
+    <mat-card-content class="card-content">
+      <!-- Título de la película -->
+      <div class="movie-title">{{ movie.title }}</div>
+    </mat-card-content>
+    <!-- Puntuación de la película -->
+      <div class="rating">{{ movie.vote_average }}</div>
+  </mat-card>
+</div>

@@ -1,0 +1,73 @@
+/* Estilo para el input de búsqueda */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+/* Estilo para el botón de búsqueda */
+.search-button {
+  padding: 18px;
+  font-size: 16px;
+  background-color: #504cb6; /* Color de fondo verde */
+  color: hsl(0, 0%, 100%); /* Color de texto blanco */
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Cambiar color del botón al pasar el ratón sobre él */
+.search-button:hover {
+  background-color: #767cde;
+}
+
+.movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-card {
+  width: 350px;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Asegura que el contenido se distribuya de manera uniforme */
+}
+
+/* Ajustes para asegurar que el fondo cubra completamente la parte inferior */
+.card-content {
+  flex-grow: 1; /* Hace que el contenido crezca para ocupar todo el espacio disponible */
+  display: flex;
+  flex-direction: column;
+  background-color: #434093; /* Fondo morado */
+  padding: 20px;
+}
+
+.movie-title {
+  font-size: 22px;
+  color: white;
+}
+
+/* Estilo para la puntuación de la película */
+.rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ffeb3b; /* Fondo amarillo para destacar */
+  color: #333; /* Texto oscuro para contraste */
+  padding: 15px 10px;
+  border-radius: 15px; /* Bordes redondeados para una apariencia más suave */
+  font-weight: bold; /* Fuente en negrita para resaltar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera para profundidad */
+  font-size: 20px; /* Tamaño de letra adecuado */
+}
+
