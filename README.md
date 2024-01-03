@@ -2,6 +2,9 @@
 ## Descripción del Proyecto
 Este proyecto es una aplicación web desarrollada con Angular que permite explorar y buscar películas utilizando la API de The Movie Database (TMDb). La aplicación presenta un diseño atractivo con tarjetas que muestran información clave de las películas, incluida su puntuación. Además, cuenta con un buscador que facilita la búsqueda de películas según el interés del usuario.
 
+## Vercel 
+https://movie-web-mu-lovat.vercel.app/
+
 ## Características Principales
 - Visualización de películas en tarjetas con información esencial.
 - Implementación de un buscador para facilitar la búsqueda de películas.
